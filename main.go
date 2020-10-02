@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/leshachaplin/emailSender/config"
+	"github.com/leshachaplin/emailSender/internal/config"
+	"github.com/leshachaplin/emailSender/internal/server"
 	"github.com/leshachaplin/emailSender/protocol"
-	"github.com/leshachaplin/emailSender/server"
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 	"net"

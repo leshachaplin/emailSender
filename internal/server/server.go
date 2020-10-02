@@ -2,8 +2,8 @@ package server
 
 import (
 	"context"
+	"github.com/leshachaplin/emailSender/internal/service"
 	"github.com/leshachaplin/emailSender/protocol"
-	"github.com/leshachaplin/emailSender/service"
 	log "github.com/sirupsen/logrus"
 )
 
